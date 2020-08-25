@@ -1,10 +1,10 @@
 package db
 
 import (
+	"com.uncle.yeung/yeung-go-fork-hcy-mygoproject/myProjectUtils"
 	"context"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
-	"myProject/myProjectUtils"
 	"time"
 )
 

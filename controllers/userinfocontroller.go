@@ -1,9 +1,9 @@
 package controllers
 
 import (
+	"com.uncle.yeung/yeung-go-fork-hcy-mygoproject/db"
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"myProject/db"
 	"net/http"
 )
 

@@ -1,6 +1,9 @@
 package controllers
 
 import (
+	"com.uncle.yeung/yeung-go-fork-hcy-mygoproject/db"
+	"com.uncle.yeung/yeung-go-fork-hcy-mygoproject/models"
+	"com.uncle.yeung/yeung-go-fork-hcy-mygoproject/pkg/util"
 	"context"
 	"fmt"
 	"github.com/gin-gonic/gin"
@@ -10,9 +13,6 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"log"
 	"math"
-	"myProject/db"
-	"myProject/models"
-	"myProject/pkg/util"
 	"net/http"
 	"strconv"
 )

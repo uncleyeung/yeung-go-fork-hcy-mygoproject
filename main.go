@@ -1,13 +1,13 @@
 package main
 
 import (
+	"com.uncle.yeung/yeung-go-fork-hcy-mygoproject/log"
+	"com.uncle.yeung/yeung-go-fork-hcy-mygoproject/myProjectUtils"
+	"com.uncle.yeung/yeung-go-fork-hcy-mygoproject/routers"
 	"flag"
 	"fmt"
 	"github.com/go-ini/ini"
 	"github.com/robfig/cron"
-	"myProject/log"
-	"myProject/myProjectUtils"
-	"myProject/routers"
 	"os/exec"
 	"runtime"
 	"time"

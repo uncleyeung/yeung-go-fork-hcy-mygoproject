@@ -1,8 +1,8 @@
 package controllers
 
 import (
+	"com.uncle.yeung/yeung-go-fork-hcy-mygoproject/models"
 	"go.mongodb.org/mongo-driver/bson/primitive"
-	"myProject/models"
 )
 
 type Rsp struct {

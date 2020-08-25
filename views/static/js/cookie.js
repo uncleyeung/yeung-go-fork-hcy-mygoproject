@@ -1,15 +1,16 @@
 function setCookie(name, value, expires, path, domain, secure) {
-    if(typeof is_remember!="undefined")
+    if (typeof is_remember != "undefined")
         return false;
     var today = new Date();
-    today.setTime( today.getTime() );
-    var expires_date = new Date( today.getTime() + (expires) );
-    document.cookie= name + "=" + escape(value) +
+    today.setTime(today.getTime());
+    var expires_date = new Date(today.getTime() + (expires));
+    document.cookie = name + "=" + escape(value) +
         ((expires) ? "; expires=" + expires_date.toGMTString() : "") +
         ((path) ? "; path=" + path : "") +
         ((domain) ? "; domain=" + domain : "") +
         ((secure) ? "; secure" : "");
 }
+
 function getCookie(name) {
     var dc = document.cookie;
     var prefix = name + "=";
@@ -26,6 +27,7 @@ function getCookie(name) {
     }
     return unescape(dc.substring(begin + prefix.length, end));
 }
+
 function deleteCookie(name, path, domain) {
     if (getCookie(name)) {
         document.cookie = name + "=" +

@@ -1,11 +1,11 @@
 package controllers
 
 import (
+	"com.uncle.yeung/yeung-go-fork-hcy-mygoproject/db"
 	"context"
 	"github.com/gin-gonic/gin"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
-	"myProject/db"
 	"net/http"
 )
 

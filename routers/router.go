@@ -1,14 +1,14 @@
 package routers
 
 import (
+	"com.uncle.yeung/yeung-go-fork-hcy-mygoproject/controllers"
+	"com.uncle.yeung/yeung-go-fork-hcy-mygoproject/db"
+	"com.uncle.yeung/yeung-go-fork-hcy-mygoproject/middleware/jwt"
+	"com.uncle.yeung/yeung-go-fork-hcy-mygoproject/routers/api"
 	"fmt"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	"io/ioutil"
-	"myProject/controllers"
-	"myProject/db"
-	"myProject/middleware/jwt"
-	"myProject/routers/api"
 )
 
 func InitRouter() (router *gin.Engine) {

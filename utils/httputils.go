@@ -1,8 +1,8 @@
 package utils
 
 import (
+	"com.uncle.yeung/yeung-go-fork-hcy-mygoproject/log"
 	"io/ioutil"
-	"myProject/log"
 	"net/http"
 )
 

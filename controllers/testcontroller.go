@@ -1,6 +1,7 @@
 package controllers
 
 import (
+	"com.uncle.yeung/yeung-go-fork-hcy-mygoproject/db"
 	"context"
 	"fmt"
 	"github.com/gin-gonic/gin"
@@ -8,7 +9,6 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/x/bsonx"
-	"myProject/db"
 	"net/http"
 	"strconv"
 	"time"

@@ -1,12 +1,12 @@
 package api
 
 import (
+	"com.uncle.yeung/yeung-go-fork-hcy-mygoproject/models"
+	"com.uncle.yeung/yeung-go-fork-hcy-mygoproject/pkg/e"
+	"com.uncle.yeung/yeung-go-fork-hcy-mygoproject/pkg/util"
 	"github.com/astaxie/beego/validation"
 	"github.com/gin-gonic/gin"
 	"log"
-	"myProject/models"
-	"myProject/pkg/e"
-	"myProject/pkg/util"
 	"net/http"
 )
 
